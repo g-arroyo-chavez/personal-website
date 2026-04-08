@@ -716,3 +716,56 @@ body:not(.page-index) .quarto-title-banner p {
   color: #08111f !important;
   font-weight: 700;
 }
+
+.global-side-panel {
+  position: fixed;
+  right: 20px;
+  top: 160px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  z-index: 20;
+}
+
+.global-side-panel-card {
+  background: linear-gradient(180deg, rgba(14, 27, 50, 0.82), rgba(10, 19, 36, 0.86));
+  border: 1px solid rgba(216, 190, 138, 0.12);
+  border-radius: 1rem;
+  padding: 0.95rem 0.95rem;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.20);
+}
+
+.global-side-panel-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  font-size: 0.98rem;
+  color: #d8be8a;
+}
+
+.global-side-panel-card p,
+.global-side-panel-card li {
+  color: #dce5f7;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.global-side-panel-card ul {
+  padding-left: 1.05rem;
+  margin-bottom: 0;
+}
+
+.global-side-panel-card a {
+  color: #d8be8a;
+  text-decoration: none;
+}
+
+.global-side-panel-card a:hover {
+  color: #eed9b2;
+}
+
+@media (max-width: 1350px) {
+  .global-side-panel {
+    display: none;
+  }
+}

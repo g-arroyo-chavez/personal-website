@@ -149,31 +149,7 @@ This visualization emphasizes the kinematic structure of the gas. It is intended
 :::
 :::
 
-::: {.side-panel}
 
-::: {.side-panel-card}
-### Research Themes
-- Star formation  
-- Interstellar medium  
-- Filaments and accretion flows  
-- Angular momentum transport  
-- Synthetic observations
-:::
-
-::: {.side-panel-card}
-### Current Focus
-I study how filamentary structure, turbulence, gravity, and magnetic fields shape angular momentum acquisition and redistribution in star-forming environments.
-:::
-
-::: {.side-panel-card}
-### Links
-- [ADS](https://ui.adsabs.harvard.edu/)
-- [arXiv](https://arxiv.org/)
-- [ORCID](https://orcid.org/)
-- [GitHub](https://github.com/)
-:::
-
-:::
 
 ::: {.back-to-top-block}
 ::: {.back-to-top-wrap}

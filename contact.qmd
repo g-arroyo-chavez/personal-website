@@ -3,8 +3,6 @@ title: "Contact"
 title-block-banner: true
 ---
 
-## Contact
-
 **Email:** yourname@arizona.edu  
 **Institution:** Steward Observatory, University of Arizona
 

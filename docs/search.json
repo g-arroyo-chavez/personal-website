@@ -70,13 +70,6 @@
     "text": "Email: yourname@arizona.edu\nInstitution: Steward Observatory, University of Arizona"
   },
   {
-    "objectID": "contact.html#contact",
-    "href": "contact.html#contact",
-    "title": "Contact",
-    "section": "",
-    "text": "Email: yourname@arizona.edu\nInstitution: Steward Observatory, University of Arizona"
-  },
-  {
     "objectID": "contact.html#profiles",
     "href": "contact.html#profiles",
     "title": "Contact",
@@ -144,14 +137,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "You can organize this page in one of two easy ways:\n\n\n\nAuthor, A., Arroyo, G., Author, B. (2026), Title of paper, Journal, Volume, Page. ADS | arXiv\nArroyo, G., Author, A. (2025), Another paper title, Journal, Volume, Page. ADS | Publisher\n\n\n\n\nYou can also keep this page short and link directly to:\n\nADS profile\nORCID\nGoogle Scholar\narXiv author search"
-  },
-  {
-    "objectID": "publications.html#publications",
-    "href": "publications.html#publications",
-    "title": "Publications",
-    "section": "",
-    "text": "You can organize this page in one of two easy ways:\n\n\n\nAuthor, A., Arroyo, G., Author, B. (2026), Title of paper, Journal, Volume, Page. ADS | arXiv\nArroyo, G., Author, A. (2025), Another paper title, Journal, Volume, Page. ADS | Publisher\n\n\n\n\nYou can also keep this page short and link directly to:\n\nADS profile\nORCID\nGoogle Scholar\narXiv author search"
+    "text": "You can organize this page in one of two easy ways:"
   },
   {
     "objectID": "publications.html#preprints-and-in-preparation",

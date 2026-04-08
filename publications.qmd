@@ -3,8 +3,6 @@ title: "Publications"
 title-block-banner: true
 ---
 
-## Publications
-
 You can organize this page in one of two easy ways:
 
 ### Option 1: Simple manual list
