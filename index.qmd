@@ -33,9 +33,11 @@ I am a postdoctoral researcher in astrophysics working on star formation, the in
 :::
 :::
 
-## Academic Path
+
 
 ::: {.timeline-horizontal-section}
+
+## Academic Path
 A brief view of my academic path and current research stage.
 
 ::: {.timeline-horizontal}
@@ -109,9 +111,12 @@ Angular momentum transport in interstellar filaments
 :::
 :::
 
+::: {.simulations-block}
 ## Interactive Simulations
 
+::: {.viz-grid}
 ::: {.viz-card}
+
 ### Filament Structure
 
 <iframe
@@ -139,12 +144,14 @@ This interactive rendering shows the filamentary gas structure in a magnetized, 
 <div class="viz-caption">
 This visualization emphasizes the kinematic structure of the gas. It is intended to illustrate how large-scale flows, converging motions, and filamentary dynamics are organized in three dimensions.
 </div>
-
 :::
 
-::: {.card-grid}
+:::
+:::
 
-::: {.info-card}
+::: {.side-panel}
+
+::: {.side-panel-card}
 ### Research Themes
 - Star formation  
 - Interstellar medium  
@@ -153,12 +160,12 @@ This visualization emphasizes the kinematic structure of the gas. It is intended
 - Synthetic observations
 :::
 
-::: {.info-card}
+::: {.side-panel-card}
 ### Current Focus
 I study how filamentary structure, turbulence, gravity, and magnetic fields shape angular momentum acquisition and redistribution in star-forming environments.
 :::
 
-::: {.info-card}
+::: {.side-panel-card}
 ### Links
 - [ADS](https://ui.adsabs.harvard.edu/)
 - [arXiv](https://arxiv.org/)
