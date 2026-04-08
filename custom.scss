@@ -769,3 +769,12 @@ body:not(.page-index) .quarto-title-banner p {
     display: none;
   }
 }
+
+@media (min-width: 1360px) {
+  body:not(.page-index) main.content,
+  body:not(.page-index) .quarto-title-block,
+  body:not(.page-index) .quarto-title-banner .content-block {
+    position: relative;
+    left: -90px;
+  }
+}
