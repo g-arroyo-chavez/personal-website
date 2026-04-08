@@ -172,26 +172,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
-<div class="page-banner">
-  <div class="page-banner-inner">
-    <div class="page-banner-title" id="page-banner-title"></div>
-  </div>
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const mainTitle =
-    document.querySelector("main h1.title") ||
-    document.querySelector(".quarto-title h1") ||
-    document.querySelector("main h1");
-
-  const bannerTitle = document.getElementById("page-banner-title");
-
-  if (mainTitle && bannerTitle) {
-    bannerTitle.textContent = mainTitle.textContent.trim();
-  }
-});
-</script>
 <div class="global-side-panel">
   <div class="global-side-panel-card">
     <h3>Research Themes</h3>

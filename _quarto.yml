@@ -36,5 +36,4 @@ format:
     toc: false
     page-layout: full
     include-after-body:
-      - includes/page-banner.html
       - includes/side-panel.html
