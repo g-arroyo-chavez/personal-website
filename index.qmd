@@ -5,7 +5,7 @@ format:
     page-layout: full
 ---
 
-::: {.hero-section}
+::: {#top .hero-section}
 ::: {.hero-grid}
 
 ::: {.profile-wrap}
@@ -173,4 +173,10 @@ I study how filamentary structure, turbulence, gravity, and magnetic fields shap
 - [GitHub](https://github.com/)
 :::
 
+:::
+
+::: {.back-to-top-block}
+::: {.back-to-top-wrap}
+[Back to top](#top){.back-to-top-btn}
+:::
 :::
