@@ -771,9 +771,7 @@ body:not(.page-index) .quarto-title-banner p {
 }
 
 @media (min-width: 1360px) {
-  body:not(.page-index) main.content,
-  body:not(.page-index) .quarto-title-block,
-  body:not(.page-index) .quarto-title-banner .content-block {
+  body:not(:has(#top)) main.content {
     position: relative;
     left: -90px;
   }
