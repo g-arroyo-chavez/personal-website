@@ -30,6 +30,81 @@ I am a postdoctoral researcher in astrophysics working on star formation, the in
 </div>
 :::
 
+:::
+:::
+
+## Academic Path
+
+::: {.timeline-horizontal-section}
+A brief view of my academic path and current research stage.
+
+::: {.timeline-horizontal}
+
+::: {.timeline-horizontal-item}
+::: {.timeline-horizontal-dot}
+:::
+::: {.timeline-horizontal-date}
+2013–2018
+:::
+::: {.timeline-horizontal-card}
+::: {.timeline-horizontal-title}
+BSc in Physics
+:::
+::: {.timeline-horizontal-place}
+Universidad Veracruzana · Veracruz, Mexico
+:::
+::: {.timeline-horizontal-supervisor}
+**Supervisor:** Dr. Alejandro Cruz Osorio
+:::
+::: {.timeline-horizontal-text}
+Simulations of neutron star collapse
+:::
+:::
+:::
+
+::: {.timeline-horizontal-item}
+::: {.timeline-horizontal-dot}
+:::
+::: {.timeline-horizontal-date}
+2018–2024
+:::
+::: {.timeline-horizontal-card}
+::: {.timeline-horizontal-title}
+MSc and PhD in Astrophysics
+:::
+::: {.timeline-horizontal-place}
+Institute of Radioastronomy and Astrophysics (IRyA), UNAM · Mexico
+:::
+::: {.timeline-horizontal-supervisor}
+**Supervisor:** Prof. Enrique Vázquez-Semadeni
+:::
+::: {.timeline-horizontal-text}
+Evolution and redistribution of angular momentum in molecular clouds
+:::
+:::
+:::
+
+::: {.timeline-horizontal-item}
+::: {.timeline-horizontal-dot}
+:::
+::: {.timeline-horizontal-date}
+2024–present
+:::
+::: {.timeline-horizontal-card}
+::: {.timeline-horizontal-title}
+Postdoctoral Research Associate
+:::
+::: {.timeline-horizontal-place}
+Steward Observatory · University of Arizona
+:::
+::: {.timeline-horizontal-supervisor}
+**Supervisor:** Dr. Shuo Kong
+:::
+::: {.timeline-horizontal-text}
+Angular momentum transport in interstellar filaments
+:::
+:::
+:::
 
 :::
 :::

@@ -402,3 +402,139 @@ a:hover {
   color: #d8be8a !important;
   transform: translateY(-1px);
 }
+
+.timeline-horizontal-section {
+  max-width: 1200px;
+  margin: 2.2rem auto 2.8rem auto;
+  padding: 0 0.6rem;
+}
+
+.timeline-horizontal-intro {
+  color: #cdd8ef;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.timeline-horizontal {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+  padding-top: 1.8rem;
+}
+
+.timeline-horizontal::before {
+  content: "";
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  top: 0.6rem;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(216, 190, 138, 0.50),
+    rgba(157, 123, 255, 0.50),
+    rgba(125, 162, 255, 0.38)
+  );
+  border-radius: 999px;
+  box-shadow: 0 0 10px rgba(157, 123, 255, 0.12);
+}
+
+.timeline-horizontal-item {
+  position: relative;
+  padding-top: 0.8rem;
+  opacity: 0;
+  animation: fadeUp 0.9s ease-out forwards;
+}
+
+.timeline-horizontal-item:nth-child(1) { animation-delay: 0.2s; }
+.timeline-horizontal-item:nth-child(2) { animation-delay: 0.4s; }
+.timeline-horizontal-item:nth-child(3) { animation-delay: 0.6s; }
+
+.timeline-horizontal-dot {
+  position: absolute;
+  top: -0.15rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(216, 190, 138, 0.95),
+    rgba(157, 123, 255, 0.90)
+  );
+  box-shadow:
+    0 0 0 4px rgba(216, 190, 138, 0.08),
+    0 0 14px rgba(157, 123, 255, 0.18);
+}
+
+.timeline-horizontal-date {
+  text-align: center;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #d8be8a;
+  margin-bottom: 0.8rem;
+}
+
+.timeline-horizontal-card {
+  background: linear-gradient(180deg, rgba(14, 27, 50, 0.82), rgba(10, 19, 36, 0.86));
+  border: 1px solid rgba(216, 190, 138, 0.10);
+  border-radius: 1.1rem;
+  padding: 1rem 1rem;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.18);
+  height: 100%;
+}
+
+.timeline-horizontal-card .timeline-horizontal-title {
+  font-size: 1.03rem;
+  font-weight: 650;
+  color: #d8be8a !important;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.timeline-horizontal-place {
+  color: #b7c7ea;
+  margin-bottom: 0.55rem;
+}
+
+.timeline-horizontal-text {
+  color: #dce5f7;
+  line-height: 1.62;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 900px) {
+  .timeline-horizontal {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding-top: 0;
+  }
+
+  .timeline-horizontal::before {
+    display: none;
+  }
+
+  .timeline-horizontal-dot {
+    display: none;
+  }
+
+  .timeline-horizontal-date {
+    text-align: left;
+    margin-bottom: 0.55rem;
+  }
+}
+
+.timeline-horizontal-supervisor {
+  color: #dce5f7;
+  margin-bottom: 0.65rem;
+  text-align: left;
+  font-size: 0.93rem;
+}
+
+.timeline-horizontal-supervisor strong {
+  color: #d8be8a;
+  font-weight: 700;
+}
