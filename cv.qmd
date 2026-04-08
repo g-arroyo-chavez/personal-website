@@ -1,5 +1,6 @@
 ---
 title: "CV"
+title-block-banner: true
 ---
 
 # Curriculum Vitae

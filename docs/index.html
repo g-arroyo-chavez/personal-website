@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4de4c4b45d3e4169b8eb9f7f4c026333.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-ececaece4a9484ab013c23d9989c983a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -291,6 +291,26 @@ Postdoctoral Research Associate · Steward Observatory · University of Arizona
 
 
 </main> <!-- /main -->
+<div class="page-banner">
+  <div class="page-banner-inner">
+    <div class="page-banner-title" id="page-banner-title"></div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const mainTitle =
+    document.querySelector("main h1.title") ||
+    document.querySelector(".quarto-title h1") ||
+    document.querySelector("main h1");
+
+  const bannerTitle = document.getElementById("page-banner-title");
+
+  if (mainTitle && bannerTitle) {
+    bannerTitle.textContent = mainTitle.textContent.trim();
+  }
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

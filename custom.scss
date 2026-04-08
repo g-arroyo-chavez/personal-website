@@ -663,3 +663,56 @@ a:hover {
     left: -90px;
   }
 }
+
+
+
+main.content {
+  padding-top: 3.8rem;
+}
+
+/* Banner horizontal en todas las páginas excepto Home */
+body:not(.nav-fixed):not(.page-index) .quarto-title-banner,
+body:not(.page-index) .quarto-title-banner {
+  background: linear-gradient(
+    135deg,
+    rgba(216, 190, 138, 0.94),
+    rgba(157, 123, 255, 0.86)
+  ) !important;
+  color: #08111f !important;
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+  margin-bottom: 2rem !important;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+}
+
+body:not(.page-index) .quarto-title-banner .title,
+body:not(.page-index) .quarto-title-banner h1,
+body:not(.page-index) .quarto-title-banner .quarto-title .title {
+  color: #08111f !important;
+  font-weight: 700;
+}
+
+body:not(.page-index) .quarto-title-banner .subtitle,
+body:not(.page-index) .quarto-title-banner p {
+  color: rgba(8, 17, 31, 0.82) !important;
+}
+
+.quarto-title-banner {
+  background: linear-gradient(
+    135deg,
+    rgba(216, 190, 138, 0.94),
+    rgba(157, 123, 255, 0.86)
+  ) !important;
+  color: #08111f !important;
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+  margin-bottom: 2rem !important;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+}
+
+.quarto-title-banner .title,
+.quarto-title-banner h1,
+.quarto-title-banner .quarto-title .title {
+  color: #08111f !important;
+  font-weight: 700;
+}

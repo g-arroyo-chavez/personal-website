@@ -35,3 +35,4 @@ format:
       - custom.scss
     toc: false
     page-layout: full
+    include-after-body: includes/page-banner.html
