@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - interactive/**
+    - images/**
+    - files/**
+
+website:
+  title: "Griselda Arroyo-Chávez"
+  navbar:
+    title: false
+    background: dark
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/TU-USUARIO
+      - icon: envelope
+        href: mailto:tu_correo@arizona.edu
+
+format:
+  html:
+    theme:
+      - darkly
+      - custom.scss
+    toc: false
+    page-layout: full

@@ -1,0 +1,39 @@
+/* Minimal academic styling */
+
+.quarto-title-banner {
+  background: linear-gradient(135deg, #0e1b2a 0%, #1f3b57 100%);
+  color: white;
+}
+
+.navbar {
+  font-weight: 500;
+}
+
+.hero {
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.hero p {
+  font-size: 1.05rem;
+}
+
+.research-card {
+  border-left: 4px solid #1f3b57;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1rem;
+  background: #f8fafc;
+}
+
+.small-note {
+  color: #5c6773;
+  font-size: 0.95rem;
+}
+
+code {
+  font-size: 0.92em;
+}

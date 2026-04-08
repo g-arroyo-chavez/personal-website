@@ -1,0 +1,29 @@
+---
+title: "Code"
+---
+
+## Code and research tools
+
+This page can collect code repositories, analysis scripts, pipelines, or visualization tools related to your work.
+
+### Example sections
+
+#### Public repositories
+- [GitHub profile](https://github.com/)
+- Project name — short description
+- Project name — short description
+
+#### Analysis workflows
+- Simulation post-processing
+- Synthetic observation pipelines
+- Visualization notebooks
+- Structure-identification tools
+
+#### Reproducibility
+You can also use this page to share:
+
+- notebooks
+- example datasets
+- parameter files
+- plotting scripts
+- tutorials for collaborators or students

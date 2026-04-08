@@ -1,0 +1,31 @@
+---
+title: "Publications"
+---
+
+## Publications
+
+You can organize this page in one of two easy ways:
+
+### Option 1: Simple manual list
+
+- Author, A., **Arroyo, G.**, Author, B. (2026), *Title of paper*, Journal, Volume, Page. [ADS](https://ui.adsabs.harvard.edu/) | [arXiv](https://arxiv.org/)
+- **Arroyo, G.**, Author, A. (2025), *Another paper title*, Journal, Volume, Page. [ADS](https://ui.adsabs.harvard.edu/) | [Publisher](https://example.com)
+
+### Option 2: External profiles
+
+You can also keep this page short and link directly to:
+
+- [ADS profile](https://ui.adsabs.harvard.edu/)
+- [ORCID](https://orcid.org/)
+- [Google Scholar](https://scholar.google.com/)
+- [arXiv author search](https://arxiv.org/)
+
+## Preprints and in preparation
+
+- Working title of current manuscript
+- Working title of collaboration paper
+
+## Talks and posters
+
+- Conference name, year — talk title
+- Workshop name, year — poster title

@@ -1,0 +1,19 @@
+---
+title: "Contact"
+---
+
+## Contact
+
+**Email:** yourname@arizona.edu  
+**Institution:** Steward Observatory, University of Arizona
+
+## Profiles
+
+- [GitHub](https://github.com/)
+- [ORCID](https://orcid.org/)
+- [ADS](https://ui.adsabs.harvard.edu/)
+- [Google Scholar](https://scholar.google.com/)
+
+## Office / collaboration
+
+Feel free to reach out regarding collaborations in star formation, ISM structure, numerical simulations, or synthetic observations.

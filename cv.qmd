@@ -1,0 +1,34 @@
+---
+title: "CV"
+---
+
+# Curriculum Vitae
+
+<ul>
+  <li><a href="assets/Arroyo_Chavez_CV.pdf" target="_blank" rel="noopener">View CV (PDF)</a></li>
+</ul>
+
+## Short academic bio
+
+Griselda Arroyo is a postdoctoral researcher in astrophysics at the University of Arizona. Her work focuses on star formation, the interstellar medium, filamentary structure, angular momentum transport, and synthetic observations from numerical simulations.
+
+## Education
+
+- PhD in Astrophysics — Institution, Year  
+- MSc in ...  
+- BSc in ...
+
+## Appointments
+
+- Postdoctoral Research Associate, Steward Observatory, University of Arizona  
+- Previous appointment
+
+## Awards and support
+
+- Fellowship / grant / travel support
+
+## Teaching, mentoring, and outreach
+
+- Mentoring experience
+- Workshops or summer schools
+- Outreach activities

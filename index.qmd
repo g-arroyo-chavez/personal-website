@@ -1,0 +1,94 @@
+---
+title: ""
+format:
+  html:
+    page-layout: full
+---
+
+::: {.hero-section}
+::: {.hero-grid}
+
+::: {.profile-wrap}
+![](images/profile.jpg){.profile-portrait}
+:::
+
+::: {}
+<div class="hero-kicker">Astrophysics • Star Formation • ISM</div>
+
+<div class="hero-name">Griselda Arroyo-Chávez</div>
+
+<div class="hero-title">Postdoctoral Research Associate · Steward Observatory · University of Arizona</div>
+
+<div class="hero-text">
+I am a postdoctoral researcher in astrophysics working on star formation, the interstellar medium, filamentary structure, angular momentum transport, and synthetic observations. My work combines theory, numerical simulations, and comparisons with observations to study how structure and kinematics emerge across scales.
+</div>
+
+<div class="hero-links">
+  <a href="research.qmd" class="btn-sand">Explore Research</a>
+  <a href="publications.qmd" class="btn-outline-desert">Publications</a>
+  <a href="contact.qmd" class="btn-outline-desert">Contact</a>
+</div>
+:::
+
+
+:::
+:::
+
+## Interactive Simulations
+
+::: {.viz-card}
+### Filament Structure
+
+<iframe
+  src="interactive/box_mhd_grav_cooling_3d_arepo_174_point_cloud.html"
+  title="Interactive K3D visualization of filament structure"
+  loading="lazy"
+  allowfullscreen>
+</iframe>
+
+<div class="viz-caption">
+This interactive rendering shows the filamentary gas structure in a magnetized, self-gravitating simulation. It highlights the spatial distribution of dense gas and the emergence of elongated structures across the computational domain.
+</div>
+:::
+
+::: {.viz-card}
+### Velocity Field
+
+<iframe
+  src="interactive/box_mhd_grav_cooling_3d_arepo_174_point_cloud.html"
+  title="Interactive K3D visualization of velocity field"
+  loading="lazy"
+  allowfullscreen>
+</iframe>
+
+<div class="viz-caption">
+This visualization emphasizes the kinematic structure of the gas. It is intended to illustrate how large-scale flows, converging motions, and filamentary dynamics are organized in three dimensions.
+</div>
+
+:::
+
+::: {.card-grid}
+
+::: {.info-card}
+### Research Themes
+- Star formation  
+- Interstellar medium  
+- Filaments and accretion flows  
+- Angular momentum transport  
+- Synthetic observations
+:::
+
+::: {.info-card}
+### Current Focus
+I study how filamentary structure, turbulence, gravity, and magnetic fields shape angular momentum acquisition and redistribution in star-forming environments.
+:::
+
+::: {.info-card}
+### Links
+- [ADS](https://ui.adsabs.harvard.edu/)
+- [arXiv](https://arxiv.org/)
+- [ORCID](https://orcid.org/)
+- [GitHub](https://github.com/)
+:::
+
+:::

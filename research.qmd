@@ -1,0 +1,38 @@
+---
+title: "Research"
+---
+
+## Overview
+
+My work lies at the intersection of star formation theory, numerical simulations, and synthetic observations. I am broadly interested in how structure, kinematics, and environment shape the evolution of dense gas and the formation of stars.
+
+## Main themes
+
+### Filaments and cloud structure
+Filaments are central to many models of cloud evolution and star formation. I study how they emerge, how they channel material, and how their internal velocity structure influences embedded collapse.
+
+### Angular momentum in collapsing systems
+A major question in my work is how angular momentum is acquired, transported, and redistributed across scales. This includes the role of turbulent flows, geometry, accretion, and magnetic fields.
+
+### Numerical methods
+I work with hydrodynamical and magnetohydrodynamical simulations, including particle-based and grid-based approaches, and use them to probe the physical origin of observable structure.
+
+### Synthetic observations
+To compare theory with data, I generate synthetic continuum and line observations and analyze them in ways that parallel observational workflows.
+
+## Ongoing projects
+
+- Angular momentum versus filament orientation  
+- Magnetic-field alignment in collapsing systems  
+- Synthetic line cubes from numerical simulations  
+- Filament identification and structural analysis  
+- Comparison between numerical methods in star-formation problems
+
+## Selected figures
+
+Add one or two figures here later, for example:
+
+- a column density map
+- a filament skeleton
+- an angular momentum alignment plot
+- a synthetic observation panel

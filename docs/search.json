@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "View CV (PDF)\n\n\n\n\nGriselda Arroyo is a postdoctoral researcher in astrophysics at the University of Arizona. Her work focuses on star formation, the interstellar medium, filamentary structure, angular momentum transport, and synthetic observations from numerical simulations.\n\n\n\n\nPhD in Astrophysics — Institution, Year\n\nMSc in …\n\nBSc in …\n\n\n\n\n\nPostdoctoral Research Associate, Steward Observatory, University of Arizona\n\nPrevious appointment\n\n\n\n\n\nFellowship / grant / travel support\n\n\n\n\n\nMentoring experience\nWorkshops or summer schools\nOutreach activities"
+  },
+  {
+    "objectID": "cv.html#short-academic-bio",
+    "href": "cv.html#short-academic-bio",
+    "title": "CV",
+    "section": "",
+    "text": "Griselda Arroyo is a postdoctoral researcher in astrophysics at the University of Arizona. Her work focuses on star formation, the interstellar medium, filamentary structure, angular momentum transport, and synthetic observations from numerical simulations."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "",
+    "text": "PhD in Astrophysics — Institution, Year\n\nMSc in …\n\nBSc in …"
+  },
+  {
+    "objectID": "cv.html#appointments",
+    "href": "cv.html#appointments",
+    "title": "CV",
+    "section": "",
+    "text": "Postdoctoral Research Associate, Steward Observatory, University of Arizona\n\nPrevious appointment"
+  },
+  {
+    "objectID": "cv.html#awards-and-support",
+    "href": "cv.html#awards-and-support",
+    "title": "CV",
+    "section": "",
+    "text": "Fellowship / grant / travel support"
+  },
+  {
+    "objectID": "cv.html#teaching-mentoring-and-outreach",
+    "href": "cv.html#teaching-mentoring-and-outreach",
+    "title": "CV",
+    "section": "",
+    "text": "Mentoring experience\nWorkshops or summer schools\nOutreach activities"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Griselda Arroyo-Chávez",
+    "section": "",
+    "text": "Astrophysics • Star Formation • ISM\n\n\nGriselda Arroyo-Chávez\n\n\nPostdoctoral Research Associate · Steward Observatory · University of Arizona\n\n\nI am a postdoctoral researcher in astrophysics working on star formation, the interstellar medium, filamentary structure, angular momentum transport, and synthetic observations. My work combines theory, numerical simulations, and comparisons with observations to study how structure and kinematics emerge across scales.\n\n\nExplore Research Publications Contact"
+  },
+  {
+    "objectID": "index.html#interactive-simulations",
+    "href": "index.html#interactive-simulations",
+    "title": "Griselda Arroyo-Chávez",
+    "section": "Interactive Simulations",
+    "text": "Interactive Simulations\n\nFilament Structure\n\n\n\nThis interactive rendering shows the filamentary gas structure in a magnetized, self-gravitating simulation. It highlights the spatial distribution of dense gas and the emergence of elongated structures across the computational domain.\n\n\n\nVelocity Field\n\n\n\nThis visualization emphasizes the kinematic structure of the gas. It is intended to illustrate how large-scale flows, converging motions, and filamentary dynamics are organized in three dimensions.\n\n\n\n\nResearch Themes\n\nStar formation\n\nInterstellar medium\n\nFilaments and accretion flows\n\nAngular momentum transport\n\nSynthetic observations\n\n\n\nCurrent Focus\nI study how filamentary structure, turbulence, gravity, and magnetic fields shape angular momentum acquisition and redistribution in star-forming environments.\n\n\nLinks\n\nADS\narXiv\nORCID\nGitHub"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: yourname@arizona.edu\nInstitution: Steward Observatory, University of Arizona"
+  },
+  {
+    "objectID": "contact.html#contact",
+    "href": "contact.html#contact",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: yourname@arizona.edu\nInstitution: Steward Observatory, University of Arizona"
+  },
+  {
+    "objectID": "contact.html#profiles",
+    "href": "contact.html#profiles",
+    "title": "Contact",
+    "section": "Profiles",
+    "text": "Profiles\n\nGitHub\nORCID\nADS\nGoogle Scholar"
+  },
+  {
+    "objectID": "contact.html#office-collaboration",
+    "href": "contact.html#office-collaboration",
+    "title": "Contact",
+    "section": "Office / collaboration",
+    "text": "Office / collaboration\nFeel free to reach out regarding collaborations in star formation, ISM structure, numerical simulations, or synthetic observations."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My work lies at the intersection of star formation theory, numerical simulations, and synthetic observations. I am broadly interested in how structure, kinematics, and environment shape the evolution of dense gas and the formation of stars."
+  },
+  {
+    "objectID": "research.html#overview",
+    "href": "research.html#overview",
+    "title": "Research",
+    "section": "",
+    "text": "My work lies at the intersection of star formation theory, numerical simulations, and synthetic observations. I am broadly interested in how structure, kinematics, and environment shape the evolution of dense gas and the formation of stars."
+  },
+  {
+    "objectID": "research.html#main-themes",
+    "href": "research.html#main-themes",
+    "title": "Research",
+    "section": "Main themes",
+    "text": "Main themes\n\nFilaments and cloud structure\nFilaments are central to many models of cloud evolution and star formation. I study how they emerge, how they channel material, and how their internal velocity structure influences embedded collapse.\n\n\nAngular momentum in collapsing systems\nA major question in my work is how angular momentum is acquired, transported, and redistributed across scales. This includes the role of turbulent flows, geometry, accretion, and magnetic fields.\n\n\nNumerical methods\nI work with hydrodynamical and magnetohydrodynamical simulations, including particle-based and grid-based approaches, and use them to probe the physical origin of observable structure.\n\n\nSynthetic observations\nTo compare theory with data, I generate synthetic continuum and line observations and analyze them in ways that parallel observational workflows."
+  },
+  {
+    "objectID": "research.html#ongoing-projects",
+    "href": "research.html#ongoing-projects",
+    "title": "Research",
+    "section": "Ongoing projects",
+    "text": "Ongoing projects\n\nAngular momentum versus filament orientation\n\nMagnetic-field alignment in collapsing systems\n\nSynthetic line cubes from numerical simulations\n\nFilament identification and structural analysis\n\nComparison between numerical methods in star-formation problems"
+  },
+  {
+    "objectID": "research.html#selected-figures",
+    "href": "research.html#selected-figures",
+    "title": "Research",
+    "section": "Selected figures",
+    "text": "Selected figures\nAdd one or two figures here later, for example:\n\na column density map\na filament skeleton\nan angular momentum alignment plot\na synthetic observation panel"
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "Code",
+    "section": "",
+    "text": "This page can collect code repositories, analysis scripts, pipelines, or visualization tools related to your work.\n\n\n\n\n\nGitHub profile\nProject name — short description\nProject name — short description\n\n\n\n\n\nSimulation post-processing\nSynthetic observation pipelines\nVisualization notebooks\nStructure-identification tools\n\n\n\n\nYou can also use this page to share:\n\nnotebooks\nexample datasets\nparameter files\nplotting scripts\ntutorials for collaborators or students"
+  },
+  {
+    "objectID": "code.html#code-and-research-tools",
+    "href": "code.html#code-and-research-tools",
+    "title": "Code",
+    "section": "",
+    "text": "This page can collect code repositories, analysis scripts, pipelines, or visualization tools related to your work.\n\n\n\n\n\nGitHub profile\nProject name — short description\nProject name — short description\n\n\n\n\n\nSimulation post-processing\nSynthetic observation pipelines\nVisualization notebooks\nStructure-identification tools\n\n\n\n\nYou can also use this page to share:\n\nnotebooks\nexample datasets\nparameter files\nplotting scripts\ntutorials for collaborators or students"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "You can organize this page in one of two easy ways:\n\n\n\nAuthor, A., Arroyo, G., Author, B. (2026), Title of paper, Journal, Volume, Page. ADS | arXiv\nArroyo, G., Author, A. (2025), Another paper title, Journal, Volume, Page. ADS | Publisher\n\n\n\n\nYou can also keep this page short and link directly to:\n\nADS profile\nORCID\nGoogle Scholar\narXiv author search"
+  },
+  {
+    "objectID": "publications.html#publications",
+    "href": "publications.html#publications",
+    "title": "Publications",
+    "section": "",
+    "text": "You can organize this page in one of two easy ways:\n\n\n\nAuthor, A., Arroyo, G., Author, B. (2026), Title of paper, Journal, Volume, Page. ADS | arXiv\nArroyo, G., Author, A. (2025), Another paper title, Journal, Volume, Page. ADS | Publisher\n\n\n\n\nYou can also keep this page short and link directly to:\n\nADS profile\nORCID\nGoogle Scholar\narXiv author search"
+  },
+  {
+    "objectID": "publications.html#preprints-and-in-preparation",
+    "href": "publications.html#preprints-and-in-preparation",
+    "title": "Publications",
+    "section": "Preprints and in preparation",
+    "text": "Preprints and in preparation\n\nWorking title of current manuscript\nWorking title of collaboration paper"
+  },
+  {
+    "objectID": "publications.html#talks-and-posters",
+    "href": "publications.html#talks-and-posters",
+    "title": "Publications",
+    "section": "Talks and posters",
+    "text": "Talks and posters\n\nConference name, year — talk title\nWorkshop name, year — poster title"
+  }
+]
