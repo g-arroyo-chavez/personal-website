@@ -26,11 +26,12 @@ $card-border-color: rgba(216, 190, 138, 0.18);
 
 html, body {
   background:
-    radial-gradient(circle at top left, rgba(105, 90, 166, 0.16), transparent 28%),
-    radial-gradient(circle at top right, rgba(83, 127, 196, 0.13), transparent 24%),
-    linear-gradient(180deg, #07101d 0%, #091427 100%);
+    radial-gradient(circle at 18% 20%, rgba(145, 115, 255, 0.16), transparent 26%),
+    radial-gradient(circle at 82% 16%, rgba(88, 132, 255, 0.14), transparent 24%),
+    linear-gradient(180deg, #06101d 0%, #091427 55%, #0b1630 100%);
   color: #e8edf7;
   min-height: 100%;
+  background-attachment: fixed;
 }
 
 body {
@@ -61,9 +62,9 @@ body {
   padding: 3rem 2rem;
   border-radius: 1.5rem;
   background:
-    linear-gradient(135deg, rgba(16, 31, 58, 0.92), rgba(10, 19, 37, 0.95));
-  border: 1px solid rgba(216, 190, 138, 0.12);
-  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.34);
+    linear-gradient(135deg, rgba(16, 31, 58, 0.78), rgba(10, 19, 37, 0.82));
+  border: 1px solid rgba(216, 190, 138, 0.14);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.30);
 }
 
 .hero-grid {
@@ -176,11 +177,12 @@ body {
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
 }
 
-.viz-card h3 {
-  margin-top: 0.2rem;
-  margin-bottom: 0.8rem;
-  color: #f2ecdf;
-  font-size: 1.05rem;
+.viz-card {
+  background: linear-gradient(180deg, rgba(14, 27, 50, 0.76), rgba(10, 19, 36, 0.80));
+  border: 1px solid rgba(216, 190, 138, 0.11);
+  border-radius: 1.2rem;
+  padding: 1rem;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.20);
 }
 
 .viz-card iframe {
@@ -235,11 +237,11 @@ body {
 }
 
 .info-card {
-  background: linear-gradient(180deg, rgba(14, 27, 50, 0.95), rgba(10, 19, 36, 0.95));
-  border: 1px solid rgba(216, 190, 138, 0.10);
+  background: linear-gradient(180deg, rgba(14, 27, 50, 0.76), rgba(10, 19, 36, 0.80));
+  border: 1px solid rgba(216, 190, 138, 0.11);
   border-radius: 1.2rem;
   padding: 1.3rem 1.2rem;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.20);
 }
 
 .info-card h3 {
@@ -288,8 +290,8 @@ a:hover {
 
 /* Separadores suaves */
 .section-soft {
-  background: rgba(255, 255, 255, 0.025);
-  border: 1px solid rgba(216, 190, 138, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(216, 190, 138, 0.10);
   border-radius: 1.25rem;
   padding: 1.4rem 1.3rem;
   margin: 1.2rem 0;
