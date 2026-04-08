@@ -3,7 +3,7 @@ title: "Contact"
 title-block-banner: true
 ---
 
-**Email:** yourname@arizona.edu  
+**Email:** arroyochavezg@arizona.edu  
 **Institution:** Steward Observatory, University of Arizona
 
 ## Profiles

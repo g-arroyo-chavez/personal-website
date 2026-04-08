@@ -1,35 +1,99 @@
----
-title: "CV"
-title-block-banner: true
----
+## Curriculum Vitae
 
-# Curriculum Vitae
+::: {.cv-map-wrap}
 
-<ul>
-  <li><a href="assets/Arroyo_Chavez_CV.pdf" target="_blank" rel="noopener">View CV (PDF)</a></li>
-</ul>
+::: {.cv-map}
 
-## Short academic bio
+<svg class="cv-map-svg" viewBox="0 0 1000 760" preserveAspectRatio="none" aria-hidden="true">
+  <line x1="500" y1="380" x2="500" y2="140" />
+  <line x1="500" y1="380" x2="230" y2="210" />
+  <line x1="500" y1="380" x2="790" y2="205" />
+  <line x1="500" y1="380" x2="210" y2="560" />
+  <line x1="500" y1="380" x2="690" y2="655" />
+  <line x1="500" y1="380" x2="430" y2="650" />
+  <line x1="500" y1="380" x2="845" y2="470" />
+</svg>
 
-Griselda Arroyo is a postdoctoral researcher in astrophysics at the University of Arizona. Her work focuses on star formation, the interstellar medium, filamentary structure, angular momentum transport, and synthetic observations from numerical simulations.
+<a href="assets/Arroyo_Chavez_CV.pdf" class="cv-center-node" target="_blank" rel="noopener">
+  <span class="cv-center-title">Open CV</span>
+  <span class="cv-center-subtitle">PDF</span>
+</a>
 
-## Education
+<details class="cv-node cv-node-current">
+<summary>Current Position</summary>
+<div class="cv-node-panel">
+### Current Position & Interests
 
-- PhD in Astrophysics — Institution, Year  
-- MSc in ...  
-- BSc in ... 
+**Postdoctoral Research Associate**  
+Steward Observatory, University of Arizona
 
-## Appointments
+Current research centers on theory and simulations of star formation, with interests spanning the interstellar medium, molecular clouds, filaments, angular momentum transport, MHD simulations, and radiative transfer or synthetic-observation methods.
+</div>
+</details>
 
-- Postdoctoral Research Associate, Steward Observatory, University of Arizona  
-- Previous appointment
+<details class="cv-node cv-node-education">
+<summary>Education</summary>
+<div class="cv-node-panel">
+### Education & Academic Trajectory
 
-## Awards and support
+- **2013–2018** — **BSc in Physics**, Universidad Veracruzana, Mexico  
+- **2018–2020** — **MSc in Astrophysics**, IRyA-UNAM, Mexico  
+- **2020–2024** — **PhD in Astrophysics**, IRyA-UNAM, Mexico  
+- **2024–present** — **Postdoctoral Research Associate**, University of Arizona
+</div>
+</details>
 
-- Fellowship / grant / travel support
+<details class="cv-node cv-node-publications">
+<summary>Publications</summary>
+<div class="cv-node-panel">
+### Selected Publications
 
-## Teaching, mentoring, and outreach
+- **2026** — *On the role of gravity, turbulence, and the magnetic field in angular momentum transfer within molecular clouds*  
+- **2026** — *Effect of gravity-driven longitudinal flows on angular momentum transport in filaments*  
+- **2025** — Comparison between TS and GHC molecular-cloud models  
+- **2022** — Angular momentum during gravitational fragmentation of molecular clouds  
+- **2020** — Neutron and quark star constraints using GW170817
+</div>
+</details>
 
-- Mentoring experience
-- Workshops or summer schools
-- Outreach activities
+<details class="cv-node cv-node-talks">
+<summary>Talks</summary>
+<div class="cv-node-panel">
+### Talks & Conferences
+
+Recent presentations include contributed and invited talks on angular momentum in molecular clouds and filaments, star formation simulations, and longitudinal flows across meetings in Mexico, Ireland, France, Australia, Canada, Italy, the United States, and Colombia.
+</div>
+</details>
+
+<details class="cv-node cv-node-awards">
+<summary>Awards</summary>
+<div class="cv-node-panel">
+### Awards & Recognition
+
+- **2026** — Nominated for the **Postdoc-as-Mentor Award** at the University of Arizona  
+- Multiple academic stages completed with **honorific mention**
+</div>
+</details>
+
+<details class="cv-node cv-node-outreach">
+<summary>Outreach</summary>
+<div class="cv-node-panel">
+### Outreach
+
+Long-term participation in public astronomy outreach includes repeated involvement in **Noche de las Estrellas** in Mexico, as well as design and workshop activities connected to eclipse outreach events.
+</div>
+</details>
+
+<details class="cv-node cv-node-service">
+<summary>Service</summary>
+<div class="cv-node-panel">
+### Professional Service
+
+Professional service includes peer review for **The Astrophysical Journal (ApJ)** and the **Open Journal of Astrophysics (OJA)**.
+</div>
+</details>
+
+:::
+
+
+:::
