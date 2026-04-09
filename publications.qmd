@@ -16,7 +16,7 @@ format:
 
 **Arroyo-Chávez, G.** & Vázquez-Semadeni, E.  
 *Evolution of the angular momentum during gravitational fragmentation of molecular clouds*  
-The Astrophysical Journal / 2022
+The Astrophysical Journal (ApJ) / 2022
 
 </summary>
 
@@ -37,7 +37,7 @@ We investigate the origin of the observed scaling j ~ R^3/2 between the specific
 
 **Arroyo-Chávez, G.**, Vázquez-Semadeni, E. & Wurster, J.  
 *On the role of gravity, turbulence, and the magnetic field in angular momentum transfer within molecular clouds*  
-arXiv e-prints / 2026
+arXiv e-prints (Accepted in ApJ) / 2026
 
 </summary>
 
@@ -58,7 +58,7 @@ Observations of molecular structures on scales of  ∼0.1−50  pc show that the
 
 **Arroyo-Chávez, G.**, Kong, S. & Vázquez-Semadeni, E.  
 *Effect of gravity-driven longitudinal flows in filaments on angular momentum transport to embedded cores*  
-arXiv e-prints / 2026
+arXiv e-prints (Submitted to ApJ) / 2026
 
 </summary>
 

@@ -24,9 +24,11 @@ website:
         text: Contact
     right:
       - icon: github
-        href: https://github.com/TU-USUARIO
+        href: https://github.com/g-arroyo-chavez
       - icon: envelope
-        href: mailto:tu_correo@arizona.edu
+        href: mailto:arroyochavezg@arizona.edu
+      - icon: person-badge
+        href: https://orcid.org/0000-0002-7082-0587
 
 format:
   html:
