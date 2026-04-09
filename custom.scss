@@ -1007,7 +1007,7 @@ body:not(.page-index) .quarto-title-banner p {
 
 .cv-map-wrap {
   max-width: 1200px;
-  margin: -5rem auto 3rem auto;
+  margin: 0rem auto 3rem auto;
   padding: 0 0.6rem;
 }
 
@@ -1238,4 +1238,19 @@ body:not(.page-index) .quarto-title-banner p {
   .cv-map-svg {
     display: none;
   }
+}
+
+.pub-links {
+  margin: 0.8rem 1rem 0.2rem 1rem;
+  color: #d8be8a;
+  font-size: 0.95rem;
+}
+
+.pub-links a {
+  color: #d8be8a;
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  color: #eed9b2;
 }

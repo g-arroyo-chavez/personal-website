@@ -16,7 +16,8 @@ format:
 
 **Arroyo-Chávez, G.** & Vázquez-Semadeni, E.  
 *Evolution of the angular momentum during gravitational fragmentation of molecular clouds*  
-The Astrophysical Journal (ApJ) / 2022
+The Astrophysical Journal (ApJ) / 2022 / [Link Journal Article](https://iopscience.iop.org/article/10.3847/1538-4357/ac3915){target="_blank"} · [arXiv](https://arxiv.org/abs/2106.10381){target="_blank"}
+
 
 </summary>
 
@@ -37,7 +38,7 @@ We investigate the origin of the observed scaling j ~ R^3/2 between the specific
 
 **Arroyo-Chávez, G.**, Vázquez-Semadeni, E. & Wurster, J.  
 *On the role of gravity, turbulence, and the magnetic field in angular momentum transfer within molecular clouds*  
-arXiv e-prints (Accepted in ApJ) / 2026
+arXiv e-prints (Accepted in ApJ) / 2026 / [Link to ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260111830A/abstract){target="_blank"} · [arXiv](https://doi.org/10.48550/arXiv.2601.11830){target="_blank"}
 
 </summary>
 
@@ -46,7 +47,7 @@ arXiv e-prints (Accepted in ApJ) / 2026
 
 Observations of molecular structures on scales of  ∼0.1−50  pc show that the specific angular momentum (j) scales with radius (R) as  j∼R^3/2 . We study the effects of turbulence, gravity, and the magnetic field in shaping this scaling, by measuring clump size and specific angular momentum in three SPH simulations of the formation of giant molecular clouds, progressively adding these three ingredients. In each simulation, we define "full" and "reduced""" clump samples, the latter restricted to aspect ratios  A<3 . We find that, in the non-magnetic runs, elongated clumps deviate the most from the j-R relation, which is best reproduced by the reduced sample in the gravity+turbulence run. In the purely hydrodynamic case, no dense elongated structures form, suggesting that turbulence alone is insufficient to generate dense filaments, although clumps have j magnitudes consistent with observations. In the gravity+turbulence+magnetic field run, most of the clumps are filamentary, yet the full sample appears to follow the observed j-R relation. This result, rather than being a real trend, could be the combination of the increase in j by the filamentary geometry, and its reduction by turbulence inhibition by the magnetic field. Finally, we measure the gravitational, magnetic, pressure-gradient, and hydrodynamic torques (which involve turbulent viscosity) in our clump samples. We find that, in magnitude, the hydrodynamic torques tend to be larger than the rest. This result is consistent with our previous work, where we proposed that gravity drives cloud formation and contraction, while turbulence redistributes angular momentum through fluid-parcel exchanges.
 
-[Link to ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260111830A/abstract){target="_blank"} · [DOI](https://doi.org/10.48550/arXiv.2601.11830){target="_blank"}
+[Link to ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260111830A/abstract){target="_blank"} · [arXiv](https://doi.org/10.48550/arXiv.2601.11830){target="_blank"}
 :::
 
 </details>
@@ -58,7 +59,7 @@ Observations of molecular structures on scales of  ∼0.1−50  pc show that the
 
 **Arroyo-Chávez, G.**, Kong, S. & Vázquez-Semadeni, E.  
 *Effect of gravity-driven longitudinal flows in filaments on angular momentum transport to embedded cores*  
-arXiv e-prints (Submitted to ApJ) / 2026
+arXiv e-prints (Submitted to ApJ) / 2026 / [Link to ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260306990A/abstract){target="_blank"} · [arXiv](https://doi.org/10.48550/arXiv.2603.06990){target="_blank"}
 
 </summary>
 
@@ -67,7 +68,7 @@ arXiv e-prints (Submitted to ApJ) / 2026
 
 Different models of filament formation predict distinct patterns of angular momentum redistribution toward embedded cores, set by the underlying velocity-field structure, which can set the initial conditions for a preferential orientation between protostellar outflows and filaments. However, the absence of a dominant alignment in observations keeps this connection open to debate. We investigate whether gravity-driven longitudinal flows along filaments can redistribute angular momentum (AM) toward collapse centers and influence outflow-filament alignment. To this end, we analyze the distributions of 3D and 2D-projected angles between sink angular momentum vectors and host filament orientations in an SPH simulation of giant molecular cloud and filament formation. We also characterize the filament velocity field by measuring the angles between SPH particle velocity vectors and filament axes, and the degree of convergent flow toward filament density peaks. No preferred alignment between the sinks' AM and the filament direction is found at early evolutionary stages, neither in 3D nor in 2D. Later, however, a predominantly perpendicular configuration emerges in 3D. Tracking individual sinks indicates that this alignment is not primordial but develops as gravity strengthens. In individual filaments, the onset of perpendicular alignment coincides with the development of convergent longitudinal flows. Finally, we estimate the minimum fraction of perpendicular 3D angles required to reveal a perpendicular 2D alignment for a given sample size. While longitudinal flows develop over extended timescales, once established, they can rapidly reorient the angular momentum vector of the sinks, enabling perpendicular alignments to arise within typical outflow lifetimes.
 
-[Link to ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260306990A/abstract){target="_blank"} · [DOI](https://doi.org/10.48550/arXiv.2603.06990){target="_blank"}
+[Link to ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260306990A/abstract){target="_blank"} · [arXiv](https://doi.org/10.48550/arXiv.2603.06990){target="_blank"}
 :::
 
 </details>
