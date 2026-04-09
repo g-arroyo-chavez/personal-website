@@ -1,7 +1,8 @@
-## Curriculum Vitae
-
+---
+title: "Curriculum Vitae"
+title-block-banner: true
+---
 ::: {.cv-map-wrap}
-
 ::: {.cv-map}
 
 <svg class="cv-map-svg" viewBox="0 0 1000 760" preserveAspectRatio="none" aria-hidden="true">
