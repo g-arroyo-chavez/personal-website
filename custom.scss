@@ -786,125 +786,7 @@ body:not(.page-index) .quarto-title-banner p {
 }
 
 
-.research-grid {
-  max-width: 1200px;
-  margin: 2rem auto 3rem auto;
-  padding: 0 0.6rem;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.2rem;
-  align-items: start;
-}
 
-.research-item {
-  background: linear-gradient(180deg, rgba(14, 27, 50, 0.82), rgba(10, 19, 36, 0.86));
-  border: 1px solid rgba(216, 190, 138, 0.12);
-  border-radius: 1rem;
-  overflow: hidden;
-  padding: 1rem;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
-}
-
-.research-item > h3 {
-  margin-top: 0;
-  margin-bottom: 0.9rem;
-  text-align: center;
-  color: #d8be8a;
-  font-size: 1.08rem;
-}
-
-.research-img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: contain;
-  object-position: center;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 0.75rem;
-  margin-bottom: 0.95rem;
-}
-
-.research-details {
-  margin-top: 0.2rem;
-}
-
-.research-details summary {
-  list-style: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-}
-
-.research-details summary::-webkit-details-marker {
-  display: none;
-}
-
-.research-details summary {
-  font-size: 0;
-}
-
-.research-details summary::after {
-  content: "Open me!";
-  display: inline-block;
-  padding: 0.55rem 1rem;
-  border-radius: 999px;
-  font-size: 0.92rem;
-  font-weight: 650;
-  color: #f5efe2;
-  background: rgba(216, 190, 138, 0.10);
-  border: 1px solid rgba(216, 190, 138, 0.24);
-  transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
-}
-
-.research-details summary:hover::after {
-  transform: translateY(-1px);
-  background: linear-gradient(
-    135deg,
-    rgba(216, 190, 138, 0.92),
-    rgba(157, 123, 255, 0.82)
-  );
-  color: #08111f;
-}
-
-.research-details[open] summary::after {
-  content: "Close";
-  background: rgba(216, 190, 138, 0.14);
-  color: #eed9b2;
-}
-
-.research-details > :not(summary) {
-  display: none;
-}
-
-.research-details[open] > :not(summary) {
-  display: block;
-  animation: researchFadeDown 0.28s ease;
-}
-
-.research-details p {
-  color: #dce5f7;
-  margin-top: 1rem;
-  margin-bottom: 0.85rem;
-  line-height: 1.65;
-}
-
-@keyframes researchFadeDown {
-  from {
-    opacity: 0;
-    transform: translateY(-6px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media (max-width: 700px) {
-  .research-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 .pub-list {
   max-width: 1150px;
@@ -1253,4 +1135,61 @@ body:not(.page-index) .quarto-title-banner p {
 
 .pub-links a:hover {
   color: #eed9b2;
+}
+
+.mini-carousel-wrap {
+  max-width: 1000px;
+  margin: 2rem auto 3rem auto;
+  padding: 0 0.6rem;
+  display: grid;
+  grid-template-columns: 60px 1fr 60px;
+  gap: 1rem;
+  align-items: center;
+}
+
+.mini-arrow {
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  border: 1px solid rgba(216, 190, 138, 0.24);
+  background: rgba(14, 27, 50, 0.86);
+  color: #f5efe2;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.mini-carousel-window {
+  overflow: hidden;
+}
+
+.mini-carousel-track {
+  display: flex;
+  transition: transform 0.35s ease;
+}
+
+.mini-card {
+  min-width: 100%;
+  background: linear-gradient(180deg, rgba(14, 27, 50, 0.82), rgba(10, 19, 36, 0.86));
+  border: 1px solid rgba(216, 190, 138, 0.12);
+  border-radius: 1rem;
+  overflow: hidden;
+  padding: 1rem;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.mini-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 0.75rem;
+  margin-bottom: 0.9rem;
+}
+
+.mini-card-title {
+  text-align: center;
+  color: #d8be8a;
+  font-weight: 700;
+  font-size: 1.05rem;
 }

@@ -32,21 +32,14 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Email: arroyochavezg@arizona.edu\nInstitution: Steward Observatory, University of Arizona\n\nOffice / collaboration\nFeel free to reach out regarding collaborations in star formation, ISM structure, numerical simulations, or synthetic observations."
+    "text": "Email: arroyochavezg@arizona.edu\nInstitution: Steward Observatory, University of Arizona\n\nCollaboration\nFeel free to reach out regarding collaborations in star formation, ISM structure, numerical simulations, or synthetic observations."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Toggle\n\nI study how filamentary structures emerge, evolve, and channel mass in star-forming environments.\nA major focus is understanding how filaments connect large-scale cloud dynamics to the formation of dense structures and embedded objects.\nThis includes the analysis of geometry, kinematics, accretion flows, and the relation between filamentary structure and the broader dynamical state of molecular clouds.\n\n\n\n\n\n\n\nToggle\n\nMy work explores how angular momentum is acquired, redistributed, and transported across scales during cloud collapse and star formation.\nI am particularly interested in the role of filamentary flows, turbulent motions, gravity, and magnetic fields in shaping the angular momentum budgets of dense gas and forming objects.\n\n\n\n\n\n\n\nToggle\n\nI use synthetic observations to connect numerical simulations with observational diagnostics, including continuum emission and molecular line tracers.\nThis helps bridge theoretical models with measurable quantities, allowing a more direct comparison between simulations and observed structures in the interstellar medium.\n\n\n\n\n\n\n\nToggle\n\nMy research relies on numerical simulations to study the interstellar medium and star-forming systems in dynamic, non-isolated environments.\nI work with simulation analysis, visualization, post-processing, and radiative transfer workflows to investigate how structure and kinematics emerge across scales."
-  },
-  {
-    "objectID": "research.html#research-overview",
-    "href": "research.html#research-overview",
-    "title": "Research",
-    "section": "",
-    "text": "Toggle\n\nI study how filamentary structures emerge, evolve, and channel mass in star-forming environments.\nA major focus is understanding how filaments connect large-scale cloud dynamics to the formation of dense structures and embedded objects.\nThis includes the analysis of geometry, kinematics, accretion flows, and the relation between filamentary structure and the broader dynamical state of molecular clouds.\n\n\n\n\n\n\n\nToggle\n\nMy work explores how angular momentum is acquired, redistributed, and transported across scales during cloud collapse and star formation.\nI am particularly interested in the role of filamentary flows, turbulent motions, gravity, and magnetic fields in shaping the angular momentum budgets of dense gas and forming objects.\n\n\n\n\n\n\n\nToggle\n\nI use synthetic observations to connect numerical simulations with observational diagnostics, including continuum emission and molecular line tracers.\nThis helps bridge theoretical models with measurable quantities, allowing a more direct comparison between simulations and observed structures in the interstellar medium.\n\n\n\n\n\n\n\nToggle\n\nMy research relies on numerical simulations to study the interstellar medium and star-forming systems in dynamic, non-isolated environments.\nI work with simulation analysis, visualization, post-processing, and radiative transfer workflows to investigate how structure and kinematics emerge across scales."
+    "text": "‹\n\n\n\n\n\n\nAngular Momentum Transport in Molecular Clouds\n\nOpen me!\n\n\n\nActive Torques in Molecular Clouds\n\nOpen me!\n\n\n\nAngular Momentum Transport in Filaments\n\nOpen me!\n\n\n\nSynthetic Observations\n\nOpen me!\n\n\n\n\n\n›\n\n\n\n\n\n\n\n\n\n\nClose"
   },
   {
     "objectID": "code.html",

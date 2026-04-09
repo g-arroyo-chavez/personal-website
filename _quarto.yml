@@ -5,6 +5,8 @@ project:
     - interactive/**
     - images/**
     - files/**
+    - research.js
+    - research-body.html
 
 website:
   title: "Griselda Arroyo-Chávez"
@@ -39,3 +41,4 @@ format:
     page-layout: full
     include-after-body:
       - includes/side-panel.html
+      - research-script.html

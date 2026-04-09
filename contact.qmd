@@ -6,6 +6,6 @@ title-block-banner: true
 **Email:** arroyochavezg@arizona.edu  
 **Institution:** Steward Observatory, University of Arizona
 
-### Office / collaboration
+### Collaboration
 
 Feel free to reach out regarding collaborations in star formation, ISM structure, numerical simulations, or synthetic observations.
