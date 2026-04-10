@@ -158,6 +158,58 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<style>
+.research-panel-row {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 1.2rem 0 1.4rem 0;
+  justify-content: flex-start;
+}
+
+.research-panel-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.research-panel-figure {
+  width: 45%;
+  min-width: 240px;
+  max-width: 420px;
+  border-radius: 0.9rem;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.20);
+}
+
+.research-panel-copy {
+  flex: 1;
+  color: #dce5f7;
+  line-height: 1.75;
+}
+
+.research-panel-copy.right {
+  text-align: right;
+}
+
+@media (max-width: 800px) {
+  .research-panel-row,
+  .research-panel-row.reverse {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .research-panel-figure {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .research-panel-copy,
+  .research-panel-copy.right {
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
 <div style="max-width:1280px; margin:0rem auto 2rem auto; padding:0 0.35rem;">
 <div style="display:grid; grid-template-columns:72px 1fr 72px; gap:0.7rem; align-items:center; margin-bottom:1rem;">
 <button id="mini-prev" type="button" style="position:relative; z-index:40; width:54px; height:54px; border-radius:999px; border:1px solid rgba(216,190,138,0.24); background:rgba(14,27,50,0.82); color:#f5efe2; font-size:2rem; cursor:pointer;">
@@ -225,17 +277,17 @@ function makePanelHTML(paragraph, img1, img2, img3, txt1, txt2, txt3) {
   return '<div style="max-width:900px; margin:0 auto 1.2rem auto; text-align:center;">' +
     '<p style="margin:0; color:#dce5f7; line-height:1.8;">' + paragraph + '</p>' +
     '</div>' +
-    '<div style="display:flex; align-items:center; gap:1.2rem; margin:1.2rem 0 1.4rem 0; justify-content:flex-start;">' +
-      '<img src="' + img1 + '" alt="figure" style="width:45%; min-width:240px; max-width:420px; border-radius:0.9rem; box-shadow:0 10px 22px rgba(0,0,0,0.20);">' +
-      '<div style="flex:1; color:#dce5f7; line-height:1.75;">' + txt1 + '</div>' +
+    '<div class="research-panel-row">' +
+      '<img src="' + img1 + '" alt="figure" class="research-panel-figure">' +
+      '<div class="research-panel-copy">' + txt1 + '</div>' +
     '</div>' +
-    '<div style="display:flex; align-items:center; gap:1.2rem; margin:1.2rem 0 1.4rem 0; justify-content:flex-start;">' +
-      '<div style="flex:1; color:#dce5f7; line-height:1.75; text-align:right;">' + txt2 + '</div>' +
-      '<img src="' + img2 + '" alt="figure" style="width:45%; min-width:240px; max-width:420px; border-radius:0.9rem; box-shadow:0 10px 22px rgba(0,0,0,0.20);">' +
+    '<div class="research-panel-row reverse">' +
+      '<img src="' + img2 + '" alt="figure" class="research-panel-figure">' +
+      '<div class="research-panel-copy right">' + txt2 + '</div>' +
     '</div>' +
-    '<div style="display:flex; align-items:center; gap:1.2rem; margin:1.2rem 0 0.5rem 0; justify-content:flex-start;">' +
-      '<img src="' + img3 + '" alt="figure" style="width:45%; min-width:240px; max-width:420px; border-radius:0.9rem; box-shadow:0 10px 22px rgba(0,0,0,0.20);">' +
-      '<div style="flex:1; color:#dce5f7; line-height:1.75;">' + txt3 + '</div>' +
+    '<div class="research-panel-row">' +
+      '<img src="' + img3 + '" alt="figure" class="research-panel-figure">' +
+      '<div class="research-panel-copy">' + txt3 + '</div>' +
     '</div>';
 }
 

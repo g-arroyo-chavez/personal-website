@@ -6,6 +6,59 @@ format:
     page-layout: full
 ---
 
+<style>
+.research-panel-row {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 1.2rem 0 1.4rem 0;
+  justify-content: flex-start;
+}
+
+.research-panel-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.research-panel-figure {
+  width: 45%;
+  min-width: 240px;
+  max-width: 420px;
+  border-radius: 0.9rem;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.20);
+}
+
+.research-panel-copy {
+  flex: 1;
+  color: #dce5f7;
+  line-height: 1.75;
+}
+
+.research-panel-copy.right {
+  text-align: right;
+}
+
+@media (max-width: 800px) {
+  .research-panel-row,
+  .research-panel-row.reverse {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .research-panel-figure {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .research-panel-copy,
+  .research-panel-copy.right {
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+
 <div style="max-width:1280px; margin:0rem auto 2rem auto; padding:0 0.35rem;"><div style="display:grid; grid-template-columns:72px 1fr 72px; gap:0.7rem; align-items:center; margin-bottom:1rem;"><button id="mini-prev" type="button" style="position:relative; z-index:40; width:54px; height:54px; border-radius:999px; border:1px solid rgba(216,190,138,0.24); background:rgba(14,27,50,0.82); color:#f5efe2; font-size:2rem; cursor:pointer;">‹</button><div style="overflow:visible;"><div style="max-width:980px; margin:0 auto; overflow:visible;"><div id="mini-stage" style="position:relative; height:600px; overflow:hidden; perspective:2400px; border-radius:1.2rem; background:linear-gradient(180deg, rgba(18,34,63,0.44), rgba(10,19,36,0.34)); border:1px solid rgba(216,190,138,0.10); box-shadow:0 18px 36px rgba(0,0,0,0.16);"><div class="mini-card" data-index="0" style="position:absolute; top:43%; left:50%; width:188px; min-height:510px; transform:translate(-50%,-50%) translateX(0) translateZ(0) scale(1) rotateY(0deg); transform-style:preserve-3d; opacity:1; z-index:6; transition:all 0.5s ease; background:transparent; border:none; border-radius:1rem; overflow:visible; padding:0.18rem; box-shadow:none;"><div class="mini-card-title" style="margin-bottom:0.5rem; text-align:center; color:#d8be8a; font-size:1.02rem; font-weight:600; line-height:1.14; text-shadow:0 2px 8px rgba(0,0,0,0.35);">Angular Momentum Transport in Molecular Clouds</div><img class="mini-card-img" src="images/research/mosaico_ALL_CT.png" alt="Angular Momentum Transport in Molecular Clouds" style="display:block; width:100%; height:414px; max-width:100%; margin:0 auto 0.62rem auto; object-fit:contain; background:rgba(255,255,255,0.02); border-radius:0.78rem; padding:0.02rem; box-shadow:0 12px 26px rgba(0,0,0,0.22);"><button type="button" class="topic-btn" data-topic="clouds" style="display:block; width:max-content; min-width:134px; margin:0 auto; padding:0.78rem 1rem; border-radius:999px; border:1px solid rgba(216,190,138,0.34); background:linear-gradient(135deg, rgba(216,190,138,0.97), rgba(232,208,164,0.93)); color:#08111f; font-size:0.96rem; font-weight:600; cursor:pointer; box-shadow:0 8px 16px rgba(0,0,0,0.16);">Open me!</button></div><div class="mini-card" data-index="1" style="position:absolute; top:43%; left:50%; width:160px; min-height:432px; transform:translate(-50%,-50%) translateX(355px) translateZ(-210px) scale(0.84) rotateY(-34deg); transform-style:preserve-3d; opacity:0.6; z-index:4; transition:all 0.5s ease; background:transparent; border:none; border-radius:1rem; overflow:visible; padding:0.16rem; box-shadow:none;"><div class="mini-card-title" style="margin-bottom:0.36rem; text-align:center; color:#d8be8a; font-size:0.82rem; font-weight:600; line-height:1.1; text-shadow:0 2px 8px rgba(0,0,0,0.32);">Active Torques in Molecular Clouds</div><img class="mini-card-img" src="images/research/torques.png" alt="Active Torques in Molecular Clouds" style="display:block; width:100%; height:348px; max-width:100%; margin:0 auto 0.44rem auto; object-fit:contain; background:rgba(255,255,255,0.02); border-radius:0.76rem; padding:0.02rem; box-shadow:0 10px 22px rgba(0,0,0,0.18);"><button type="button" class="topic-btn" data-topic="torques" style="display:block; width:max-content; min-width:114px; margin:0 auto; padding:0.62rem 0.8rem; border-radius:999px; border:1px solid rgba(216,190,138,0.34); background:linear-gradient(135deg, rgba(216,190,138,0.94), rgba(232,208,164,0.90)); color:#08111f; font-size:0.82rem; font-weight:600; cursor:pointer; box-shadow:0 8px 16px rgba(0,0,0,0.14);">Open me!</button></div><div class="mini-card" data-index="2" style="position:absolute; top:43%; left:50%; width:160px; min-height:432px; transform:translate(-50%,-50%) translateX(-355px) translateZ(-210px) scale(0.84) rotateY(34deg); transform-style:preserve-3d; opacity:0.6; z-index:4; transition:all 0.5s ease; background:transparent; border:none; border-radius:1rem; overflow:visible; padding:0.16rem; box-shadow:none;"><div class="mini-card-title" style="margin-bottom:0.36rem; text-align:center; color:#d8be8a; font-size:0.82rem; font-weight:600; line-height:1.1; text-shadow:0 2px 8px rgba(0,0,0,0.32);">Angular Momentum Transport in Filaments</div><img class="mini-card-img" src="images/research/models.png" alt="Angular Momentum Transport in Filaments" style="display:block; width:100%; height:348px; max-width:100%; margin:0 auto 0.44rem auto; object-fit:contain; background:rgba(255,255,255,0.02); border-radius:0.76rem; padding:0.02rem; box-shadow:0 10px 22px rgba(0,0,0,0.18);"><button type="button" class="topic-btn" data-topic="filaments" style="display:block; width:max-content; min-width:114px; margin:0 auto; padding:0.62rem 0.8rem; border-radius:999px; border:1px solid rgba(216,190,138,0.34); background:linear-gradient(135deg, rgba(216,190,138,0.94), rgba(232,208,164,0.90)); color:#08111f; font-size:0.82rem; font-weight:600; cursor:pointer; box-shadow:0 8px 16px rgba(0,0,0,0.14);">Open me!</button></div><div class="mini-card" data-index="3" style="position:absolute; top:43%; left:50%; width:142px; min-height:378px; transform:translate(-50%,-50%) translateX(565px) translateZ(-370px) scale(0.68) rotateY(-42deg); transform-style:preserve-3d; opacity:0.2; z-index:2; pointer-events:none; transition:all 0.5s ease; background:transparent; border:none; border-radius:1rem; overflow:visible; padding:0.12rem; box-shadow:none; filter:blur(0.7px);"><div class="mini-card-title" style="margin-bottom:0.24rem; text-align:center; color:#d8be8a; font-size:0.72rem; font-weight:600; line-height:1.05; text-shadow:0 2px 8px rgba(0,0,0,0.3);">Synthetic Observations</div><img class="mini-card-img" src="images/research/RT_filament.png" alt="Synthetic Observations" style="display:block; width:100%; height:300px; max-width:100%; margin:0 auto 0.3rem auto; object-fit:contain; background:rgba(255,255,255,0.02); border-radius:0.74rem; padding:0.02rem; box-shadow:0 8px 16px rgba(0,0,0,0.14);"><button type="button" class="topic-btn" data-topic="synthetic" style="display:block; width:max-content; min-width:102px; margin:0 auto; padding:0.52rem 0.68rem; border-radius:999px; border:1px solid rgba(216,190,138,0.34); background:linear-gradient(135deg, rgba(216,190,138,0.92), rgba(232,208,164,0.88)); color:#08111f; font-size:0.74rem; font-weight:600; cursor:pointer; box-shadow:0 8px 16px rgba(0,0,0,0.12);">Open me!</button></div></div></div></div><button id="mini-next" type="button" style="position:relative; z-index:40; width:54px; height:54px; border-radius:999px; border:1px solid rgba(216,190,138,0.24); background:rgba(14,27,50,0.82); color:#f5efe2; font-size:2rem; cursor:pointer;">›</button></div><div id="research-panel" style="display:none; background:linear-gradient(180deg, rgba(14,27,50,0.84), rgba(10,19,36,0.88)); border:1px solid rgba(216,190,138,0.12); border-radius:1.1rem; padding:1.55rem 1.45rem; box-shadow:0 12px 28px rgba(0,0,0,0.20);"><div id="research-panel-title" style="margin-bottom:0.9rem; color:#d8be8a; font-size:1.16rem; font-weight:600; text-align:center;"></div><div id="research-panel-text" style="color:#dce5f7; line-height:1.72; margin-bottom:1.1rem;"></div><button id="research-close-bottom" type="button" style="display:block; margin:0 auto; padding:0.7rem 1rem; border-radius:999px; border:1px solid rgba(216,190,138,0.24); background:rgba(255,255,255,0.04); color:#f5efe2; font-size:0.92rem; font-weight:600; cursor:pointer;">Close</button></div></div>
 
 <script>
@@ -24,17 +77,17 @@ function makePanelHTML(paragraph, img1, img2, img3, txt1, txt2, txt3) {
   return '<div style="max-width:900px; margin:0 auto 1.2rem auto; text-align:center;">' +
     '<p style="margin:0; color:#dce5f7; line-height:1.8;">' + paragraph + '</p>' +
     '</div>' +
-    '<div style="display:flex; align-items:center; gap:1.2rem; margin:1.2rem 0 1.4rem 0; justify-content:flex-start;">' +
-      '<img src="' + img1 + '" alt="figure" style="width:45%; min-width:240px; max-width:420px; border-radius:0.9rem; box-shadow:0 10px 22px rgba(0,0,0,0.20);">' +
-      '<div style="flex:1; color:#dce5f7; line-height:1.75;">' + txt1 + '</div>' +
+    '<div class="research-panel-row">' +
+      '<img src="' + img1 + '" alt="figure" class="research-panel-figure">' +
+      '<div class="research-panel-copy">' + txt1 + '</div>' +
     '</div>' +
-    '<div style="display:flex; align-items:center; gap:1.2rem; margin:1.2rem 0 1.4rem 0; justify-content:flex-start;">' +
-      '<div style="flex:1; color:#dce5f7; line-height:1.75; text-align:right;">' + txt2 + '</div>' +
-      '<img src="' + img2 + '" alt="figure" style="width:45%; min-width:240px; max-width:420px; border-radius:0.9rem; box-shadow:0 10px 22px rgba(0,0,0,0.20);">' +
+    '<div class="research-panel-row reverse">' +
+      '<img src="' + img2 + '" alt="figure" class="research-panel-figure">' +
+      '<div class="research-panel-copy right">' + txt2 + '</div>' +
     '</div>' +
-    '<div style="display:flex; align-items:center; gap:1.2rem; margin:1.2rem 0 0.5rem 0; justify-content:flex-start;">' +
-      '<img src="' + img3 + '" alt="figure" style="width:45%; min-width:240px; max-width:420px; border-radius:0.9rem; box-shadow:0 10px 22px rgba(0,0,0,0.20);">' +
-      '<div style="flex:1; color:#dce5f7; line-height:1.75;">' + txt3 + '</div>' +
+    '<div class="research-panel-row">' +
+      '<img src="' + img3 + '" alt="figure" class="research-panel-figure">' +
+      '<div class="research-panel-copy">' + txt3 + '</div>' +
     '</div>';
 }
 
