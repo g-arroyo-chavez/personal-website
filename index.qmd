@@ -118,7 +118,6 @@ Angular momentum transport in interstellar filaments
 
 ::: {.viz-grid}
 ::: {.viz-card}
-
 ### Filamentary Structures
 
 <iframe
