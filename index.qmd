@@ -114,10 +114,12 @@ Angular momentum transport in interstellar filaments
 ::: {.simulations-block}
 ## Interactive Simulations
 
+<div style="text-align:center; color:#d8be8a; max-width:900px; margin:0 0 1rem 0; line-height:1.7;">You can move around! Use your mouse to navigate the simulation by zooming and dragging. Explore the control panel and change the parameters to your liking!</div>
+
 ::: {.viz-grid}
 ::: {.viz-card}
 
-### Filament Structure
+### Filamentary Structures
 
 <iframe
   src="interactive/box_mhd_grav_cooling_3d_arepo_174_point_cloud.html"

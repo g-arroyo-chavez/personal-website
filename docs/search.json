@@ -25,7 +25,7 @@
     "href": "index.html#interactive-simulations",
     "title": "Griselda Arroyo-Chávez",
     "section": "Interactive Simulations",
-    "text": "Interactive Simulations\n\n\nFilament Structure\n\n\n\nThis interactive rendering shows the filamentary gas structure in a magnetized, self-gravitating simulation. It highlights the spatial distribution of dense gas and the emergence of elongated structures across the computational domain.\n\n\n\nVelocity Field\n\n\n\nThis visualization emphasizes the kinematic structure of the gas. It is intended to illustrate how large-scale flows, converging motions, and filamentary dynamics are organized in three dimensions."
+    "text": "Interactive Simulations\n\nYou can move around! Use your mouse to navigate the simulation by zooming and dragging. Explore the control panel and change the parameters to your liking!\n\n\n\nFilamentary Structures\n\n\n\nThis interactive rendering shows the filamentary gas structure in a magnetized, self-gravitating simulation. It highlights the spatial distribution of dense gas and the emergence of elongated structures across the computational domain.\n\n\n\nVelocity Field\n\n\n\nThis visualization emphasizes the kinematic structure of the gas. It is intended to illustrate how large-scale flows, converging motions, and filamentary dynamics are organized in three dimensions."
   },
   {
     "objectID": "contact.html",
