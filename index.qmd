@@ -56,7 +56,7 @@ BSc in Physics
 Universidad Veracruzana · Veracruz, Mexico
 :::
 ::: {.timeline-horizontal-supervisor}
-**Supervisor:** Dr. Alejandro Cruz Osorio
+**Supervisors:** Dr. Alejandro Cruz Osorio and Prof. Cuauhtemoc Campuzano Vargas 
 :::
 ::: {.timeline-horizontal-text}
 Simulations of neutron star collapse
@@ -149,7 +149,7 @@ Shown here is a filament with SPH particles colored by density, along with veloc
 :::
 
 ::: {.viz-card}
-### Velocity field Without Gravity
+### Velocity Field Without Gravity
 
 <iframe
   src="interactive/velocity_vectors_without_gravity.html"
@@ -164,7 +164,7 @@ Here is another filament from my gravity-free simulation, just turbulence! The c
 :::
 
 ::: {.viz-card}
-### Velocity field With Magnetic Field
+### Velocity Field With Magnetic Field
 
 <iframe
   src="interactive/velocity_vectors_magnetic.html"
