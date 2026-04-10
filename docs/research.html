@@ -221,61 +221,73 @@ document.addEventListener("DOMContentLoaded", function () {
   var cards = Array.from(document.querySelectorAll(".mini-card"));
   var current = 0;
 
- function makePanelHTML(paragraph, img1, img2, img3) {
+function makePanelHTML(paragraph, img1, img2, img3, txt1, txt2, txt3) {
   return '<div style="max-width:900px; margin:0 auto 1.2rem auto; text-align:center;">' +
     '<p style="margin:0; color:#dce5f7; line-height:1.8;">' + paragraph + '</p>' +
     '</div>' +
     '<div style="display:flex; align-items:center; gap:1.2rem; margin:1.2rem 0 1.4rem 0; justify-content:flex-start;">' +
       '<img src="' + img1 + '" alt="figure" style="width:45%; min-width:240px; max-width:420px; border-radius:0.9rem; box-shadow:0 10px 22px rgba(0,0,0,0.20);">' +
-      '<div style="flex:1; color:#dce5f7; line-height:1.75;">This example highlights how complex structure emerges across scales and how morphology can be used to connect dynamical evolution with observable signatures in a simple visual way.</div>' +
+      '<div style="flex:1; color:#dce5f7; line-height:1.75;">' + txt1 + '</div>' +
     '</div>' +
     '<div style="display:flex; align-items:center; gap:1.2rem; margin:1.2rem 0 1.4rem 0; justify-content:flex-start;">' +
-      '<div style="flex:1; color:#dce5f7; line-height:1.75; text-align:right;">Here I compare different stages or physical interpretations, emphasizing how the same system can be read through kinematics, geometry, and transport processes acting simultaneously.</div>' +
+      '<div style="flex:1; color:#dce5f7; line-height:1.75; text-align:right;">' + txt2 + '</div>' +
       '<img src="' + img2 + '" alt="figure" style="width:45%; min-width:240px; max-width:420px; border-radius:0.9rem; box-shadow:0 10px 22px rgba(0,0,0,0.20);">' +
     '</div>' +
     '<div style="display:flex; align-items:center; gap:1.2rem; margin:1.2rem 0 0.5rem 0; justify-content:flex-start;">' +
       '<img src="' + img3 + '" alt="figure" style="width:45%; min-width:240px; max-width:420px; border-radius:0.9rem; box-shadow:0 10px 22px rgba(0,0,0,0.20);">' +
-      '<div style="flex:1; color:#dce5f7; line-height:1.75;">This final example can be used to point out the broader interpretation of the results, linking numerical experiments, structural evolution, and potential comparison with observational data.</div>' +
+      '<div style="flex:1; color:#dce5f7; line-height:1.75;">' + txt3 + '</div>' +
     '</div>';
 }
 
 var content = {
   clouds: {
-    title: "Angular Momentum Transport in Molecular Clouds",
-    text: makePanelHTML(
-      "This section introduces the broad question of how angular momentum is acquired, redistributed, and transported during cloud evolution and collapse, with attention to gravity, turbulence, and magnetic structure.",
-      "images/research/j_R_S3e1.png",
-      "images/research/c2083_visual.png",
-      "images/research/am_evolution_separ_3e3.png"
-    )
-  },
+  title: "Angular Momentum Transport in Molecular Clouds",
+  text: makePanelHTML(
+    "This section introduces the broad question of how angular momentum is acquired, redistributed, and transported during cloud evolution and collapse, with attention to gravity, turbulence, and magnetic structure. The image above displays the density field for simulations performed using the SPH Phantom code. I begin with a warm neutral medium and incorporate turbulence, self-gravity, magnetic fields, sink formation, and heating and cooling processes. Then I form molecular clouds, clumps, and cores, and track the evolution of their angular momentum.",
+    "images/research/j_R_S3e1.png",
+    "images/research/c2083_visual.png",
+    "images/research/am_evolution_separ_3e3.png",
+    "Here, I present the classic j-R relation, specific angular momentum versus radius, for a collection of numerical clumps identified using a clump finder based on a density threshold. These clumps are distinguished by different colors representing different density thresholds, and by different symbols representing different time steps in the simulation. We have successfully reproduced the observed relation!",
+    "Taking advantage of the ease of particle tracking in SPH codes, I tracked the particles within our clumps and observed that while some particles decrease in density and disperse, others continue their process of collapse. In this image, I illustrate the visual evolution of one of our clumps, with colors representing the density of the SPH particles. We can see that, at the final time step, some particles turn red and disperse, while others turn purple and increase in density.",
+    "Upon quantifying the angular momentum of the particles that decrease in density and disperse versus those that continue to collapse, we observe that the angular momentum of the diffuse particles increases (orange line), while that of the dense particles decreases (green line) over time. This is very similar to what occurs in accretion disks!"
+  )
+},
   torques: {
-    title: "Active Torques in Molecular Clouds",
-    text: makePanelHTML(
-      "This section focuses on the torques that can act inside molecular-cloud environments and on how their relative contribution may vary with geometry, environment, and evolutionary state.",
-      "images/research/jR_HDG_ct20_14_15_16Myr.jpeg",
-      "images/research/torque_equation.png",
-      "images/research/torques_hist_MHDG_ff3.jpg"
-    )
-  },
+  title: "Active Torques in Molecular Clouds",
+  text: makePanelHTML(
+    "An open question remains regarding the mechanism by which molecular clouds appear to lose and redistribute their angular momentum. In this section, we investigate and quantify the primary mechanisms of angular momentum transfer on the scales of molecular clouds and clumps. These mechanisms are also schematically shown in the image above.",
+    "images/research/jR_HDG_ct20_14_15_16Myr.jpeg",
+    "images/research/torque_equation.png",
+    "images/research/torques_hist_MHDG_ff3.jpg",
+    "Here again, I present the classic j-R relation, specific angular momentum versus radius, for a collection of numerical clumps identified using a clump finder based on a density threshold. These clumps are distinguished by different colors representing different density thresholds. Here, it appears that some clumps have j magnitudes larger than expected, and it turns out they are filaments! The j-R relation doesn't seem to be designed for filaments!",
+    "If we take the fluid momentum equation, cross-multiply it by the position vector, and integrate over the volume of the clump, we obtain the torques acting upon the clumps. In a novel approach, we propose that the torques—which we called hydrodynamic and which involve turbulent viscosity—are primarily responsible for the transport and redistribution of angular momentum at the scales of molecular clouds.",
+    "Here, I show the histogram of the magnitude of each torque for the different density thresholds used to define clumps. In blue, we have the hydrodynamic torque; in green, the magnetic; in red, the gravitational; and in orange, the pressure-gradient torque. The hydrodynamic torque is the largest in magnitude!"
+  )
+},
   filaments: {
-    title: "Angular Momentum Transport in Filaments",
-    text: makePanelHTML(
-      "This section explores the possibility that filamentary flows do more than feed mass: they may also channel, redirect, and reorganize angular momentum toward embedded collapse centers.",
-      "images/research/heat_cos_3Dangles-2.png",
-      "images/research/heat_cos_3Dangles_vel_full_only05.png",
-      "images/research/f_N.jpeg"
-    )
-  },
+  title: "Angular Momentum Transport in Filaments",
+  text: makePanelHTML(
+    "Based on the gas kinematics within interstellar medium filaments, various star formation models offer predictions regarding the transport of angular momentum toward dense cores—a process that could ultimately influence the relative orientation between protostellar outflows and the principal axes of their host filaments (OFA). Two scenarios are illustrated in the image above: a perpendicular OFA in panel A, generated by longitudinal flows directed toward the core; and a parallel OFA in panel B, resulting from the inheritance of the filament's rotation by the core. In this section, we put the model presented in panel A to the test.",
+    "images/research/heat_cos_3Dangles-2.png",
+    "images/research/heat_cos_3Dangles_vel_full_only05.png",
+    "images/research/f_N.jpeg",
+    "Here, I present the evolution of the histograms of the cosine of the angle between the angular momentum of the sink particles in my simulations and the local direction of the filaments in which they reside. At the beginning of the simulation when the filaments are just starting to assemble, everything appears random, as is typically observed; however, as gravity gains prominence and longitudinal flows develop, we begin to see an excess of perpendicular orientations.",
+    "Conversely, if longitudinal flows truly develop within the filaments, the angle between the velocity vectors of the SPH particles and the filament axis should be rather parallel; and this is precisely what I demonstrate here. Now, as time progresses, we observe an overpopulation of angles close to zero, that is, parallel alignments.",
+    "THowever, it is a different story in 2D! In 2D projections onto the plane of the sky, it is very difficult to distinguish signs of outflows with perpendicular orientations from those with random orientations. Therefore, using statistical models, I calculate the excess of perpendicularly oriented outflows required to enable us,in turn, to identify a distribution of perpendicular alignments in 2D. The plot shows this function, which depends on the number of outflows in the sample."
+  )
+},
   synthetic: {
-    title: "Synthetic Observations",
-    text: makePanelHTML(
-      "This section shows how synthetic observations can bridge the gap between simulations and observable diagnostics, helping interpret structure, emission, and kinematics in a consistent way.",
-      "images/research/Filament_1.png",
-      "images/research/profile_.png",
-      "images/research/RTlines.png"
-    )
-  }
+  title: "Synthetic Observations",
+  text: makePanelHTML(
+    "I’ve recently become interested in generating synthetic observations—both continuum and line emission—from the filaments in my simulations. Here’s a little sneak peek.",
+    "images/research/Filament_1.png",
+    "images/research/profile_.png",
+    "images/research/RTlines.png",
+    "One of the questions I have recently begun to explore concerns the identification of filament formation mechanisms, and how to create models that allow us, based on theoretical predictions, to identify these processes in observations. To this end, I began generating synthetic observations of filaments, such as the one I present here.",
+    "How does the density profile change for each type of formation mechanism? We shall see!",
+    "Will these same properties be observed in large-scale filaments? Stay tuned for what's coming!"
+  )
+}
 };
 
   function resetButtons() {
