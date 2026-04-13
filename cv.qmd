@@ -2,8 +2,11 @@
 title: "Curriculum Vitae"
 title-block-banner: true
 ---
+
 ::: {.cv-map-wrap}
 ::: {.cv-map}
+
+<div style="text-align:center; color:#d8be8a; max-width:900px; margin:0 0 1rem 0; line-height:1.7;">Click on each circle/rectangle for a summary of each section, or download the PDF directly.</div>
 
 <svg class="cv-map-svg" viewBox="0 0 1000 760" preserveAspectRatio="none" aria-hidden="true">
   <line x1="500" y1="380" x2="500" y2="140" />
